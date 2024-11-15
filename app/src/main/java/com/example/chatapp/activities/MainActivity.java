@@ -10,8 +10,16 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.chatapp.R;
 
+
+/**
+ * The main class
+ */
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * Initialization function
+     * @param savedInstanceState Default parameter
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
