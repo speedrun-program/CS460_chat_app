@@ -137,7 +137,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                    startActivity(intent);
+                    showToast("signed up successfully"); loading(false); // startActivity(intent);
 
                 }).addOnFailureListener(exception -> {
                     loading(false);
